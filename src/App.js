@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Cr from "./components/crausel";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <Cr />
+      </nav>
+      <main>
+        <iframe
+          width="260"
+          height="215"
+          src="https://www.youtube.com/embed/8SoWMS9ZVSk"
+          title="YouTube video player"
+          frameborder="10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </main>
     </div>
   );
 }
