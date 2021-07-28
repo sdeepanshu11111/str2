@@ -14,8 +14,6 @@
       background-attachment: fixed;
       background-size: cover;
       position: relative;
-
-      filter: brightness(0.6);
     }
     h2 {
       position: absolute;
@@ -55,4 +53,24 @@ iframe {
   font-size: 2rem;
   text-align: center;
   filter: brightness(1.2) contrast(2) invert(1);
+}
+
+@media screen and (max-width: 768px) {
+  .c {
+    .div {
+      height: 9rem;
+    }
+    .st {
+      font-size: 1.2rem !important;
+      width: 50%;
+      left: 24%;
+      top: 50%;
+    }
+  }
+
+  .if {
+    width: 160px;
+    height: 115px;
+    margin: 1rem;
+  }
 }

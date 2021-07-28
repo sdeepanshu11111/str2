@@ -8,8 +8,7 @@ function App() {
       </nav>
       <main>
         <iframe
-          width="260"
-          height="215"
+          className="if"
           src="https://www.youtube.com/embed/8SoWMS9ZVSk"
           title="YouTube video player"
           frameborder="10"
